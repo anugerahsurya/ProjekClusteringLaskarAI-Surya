@@ -1,5 +1,7 @@
 # Projek Belajar Machine Learning untuk Pemula
-![Meme Lagi](https://datasciencedojo.com/wp-content/uploads/26.jpg.webp)<br>
+<p align="center">
+  <img src="https://datasciencedojo.com/wp-content/uploads/26.jpg.webp" width="800">
+</p>
 Sumber : [Data Science Dojo](https://datasciencedojo.com/blog/data-science-memes/)<br>
 
 *Disclaimer : Penulis bukan makhluk sempurna, soo tell me kalo ada kekeliruan disini...*
