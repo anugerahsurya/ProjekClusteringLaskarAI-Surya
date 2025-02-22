@@ -1,4 +1,8 @@
 # Projek Belajar Machine Learning untuk Pemula
+![Meme Lagi](https://datasciencedojo.com/wp-content/uploads/26.jpg.webp)<br>
+Sumber : [Data Science Dojo](https://datasciencedojo.com/blog/data-science-memes/)<br>
+
+*Disclaimer : Penulis bukan makhluk sempurna, soo tell me kalo ada kekeliruan disini...*
 
 ## Cara Clone Repository
 
@@ -9,8 +13,9 @@ git clone https://github.com/anugerahsurya/ProjekClusteringLaskarAI-Surya.git
 ```
 
 ## Introduction
-Yoo guys, jadi dah cukup lama ga update karena lagi di masa mendalami skripsi. Kali ini karena cukup bosen bahas skripsi mulu, aku mulai iseng join Laskar AI (yaa karena pengen juga si.) Nah programnya ini kaya kelas <br>
-online gitu kerjasama Dicoding-NVIDIA-LintasArta. Sebenernya yang bikin *eye catching*-nya ini NVIDIA nya wkwkwk. Singkatnya, RTX itu kan dari NVIDIA yaa dan powerfull banget tuh GPU untuk running-running ML khususnya Deep Learning. Jadi harapannya semoga nanti ada momen NVIDIA minjamin dan bisa nyoba GPU *powerfull*-nya mereka wkwkwk. **okaay, without any further do, mari kita mulai pembahasan kodenya.**
+![Meme](https://datasciencedojo.com/wp-content/uploads/23.jpg.webp)<br>
+Sumber : [Data Science Dojo](https://datasciencedojo.com/blog/data-science-memes/)<br>
+Yoo guys, jadi dah cukup lama ga update karena lagi di masa mendalami skripsi. Kali ini karena cukup bosen bahas skripsi mulu, aku mulai iseng join Laskar AI (yaa karena pengen juga si.) Nah programnya ini kaya kelas online gitu kerjasama Dicoding-NVIDIA-LintasArta. Sebenernya yang bikin *eye catching*-nya ini NVIDIA nya wkwkwk. Singkatnya, RTX itu kan dari NVIDIA yaa dan powerfull banget tuh GPU untuk running-running ML khususnya Deep Learning. Jadi harapannya semoga nanti ada momen NVIDIA minjamin dan bisa nyoba GPU *powerfull*-nya mereka wkwkwk. **okaay, without any further do, mari kita mulai pembahasan kodenya.**
 
 ## Business Understanding
 *ini diskip aja lah yaa, soalnya gaa ada dasar pemilihan selain kesesuaian data ini sama kriteria penilaian penugasan wkwk.*
@@ -46,6 +51,8 @@ Oiyaa ada keliru gaes, harusnya dengan Label Encoder yaa, karena ini treatment u
 Yaa ini sebagai syarat aja wkwkw. aslinya ya temen temen bisa identifikasi nih hubungan linier antara variabelnyaa. Walaupun terkadang kalo kita make model *machine learning* atau *deep learning*, nilai itu kurang relevan karena konsepnya emang pemodelan non linier. Tapi penting karena jika kontribusinya emang besar, variabel tersebut tetap punya nilai *feature importance* yang tinggi.
 
 ### 2.5 Standardisasi Data
+![Visualisasi Standardisasi Data](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*hP0vIkTucGjspPootFrS_w.png)<br>
+Sumber : [Medium](https://medium.com/alliedoffsets/standardization-the-secret-to-better-data-science-fa2cb6b30c01)<br>
 Pada kode ini menggunakan MinMaxScaler karena yaa pengen cepet aja. Yaa di akhir juga dicoba coba si mana yang ngehasilin silhouette paling tinggi, tapi yaa tetep MinMax paling bagus jadi yaudah.
 
 ### 2.6 Eliminasi Outlier
@@ -69,6 +76,9 @@ Tahapan visualisasi sebenernya ada banyak opsi nih temen temen, seperti PCA, Ker
 
 ### 3.5 Analisis dan Interpretasi Hasil Cluster
 Tahapan selanjutnya perlu inverse transform karena tadi distandardisasi pake MinMax. Nah setelah itu dibentuk dataframe baru untuk profilisasi clusternya. Tapi perhatiin temen-temen kode ini belum diset random state untuk clusternya, jadi running berkali-kali bakal beda terus hasilnya heheehe.
+
+![Meme Tutup](https://datasciencedojo.com/wp-content/uploads/33.jpg.webp)<br>
+Sumber : [Data Science Dojo](https://datasciencedojo.com/blog/data-science-memes/)<br>
 
 
 
